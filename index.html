@@ -4,80 +4,1502 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#f6f1e7">
-<title>The Dhāraṇī of Avalokiteśvara Cintāmaṇicakra</title>
+
+<title>Mantra 108</title>
+
 <link rel="manifest" href="manifest.webmanifest">
+
 <style>
-:root{--bg:#f6f1e7;--card:#fffdf8;--ink:#2e2a24;--muted:#756d62;--accent:#8b5e34;--line:#ddd2c2;--ok:#41644a}
-*{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);color:var(--ink)}
-header{padding:22px 18px 10px;text-align:center} h1{margin:0;font-size:28px} .sub{color:var(--muted);font-size:13px;margin-top:5px}
-nav{position:sticky;top:0;z-index:5;display:flex;background:var(--bg);padding:8px;gap:6px;border-bottom:1px solid var(--line)}
-nav button{flex:1}.wrap{max-width:720px;margin:auto;padding:12px 12px 90px}.view{display:none}.view.active{display:block}
-.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:17px;margin:12px 0;box-shadow:0 2px 8px #0000000a}
-.title{font-weight:700;font-size:18px}.mantra{line-height:1.6;margin:10px 0 14px}.timer{text-align:center;font-size:36px;font-variant-numeric:tabular-nums;font-weight:700}
-.count{text-align:center;font-size:42px;font-weight:700}.small{text-align:center;color:var(--muted);font-size:12px}
-.row{display:flex;gap:9px;justify-content:center;align-items:center;flex-wrap:wrap;margin-top:10px}
-button{border:1px solid var(--line);background:#fff;border-radius:12px;padding:11px 15px;font-size:15px;color:var(--ink)}
-button.primary{background:var(--accent);color:white;border-color:var(--accent)} button.big{font-size:26px;min-width:62px}
-button:active{transform:scale(.98)} .done{color:var(--ok);font-weight:700;text-align:center;margin-top:8px}
-.history-item{padding:12px 0;border-bottom:1px solid var(--line)} .history-item:last-child{border:0}
-.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.stat{background:var(--card);border:1px solid var(--line);border-radius:15px;padding:15px;text-align:center}.stat b{display:block;font-size:25px}
-input[type=file]{max-width:100%}
+
+:root{
+  --bg:#f6f1e7;
+  --card:#fffdf8;
+  --ink:#2e2a24;
+  --muted:#756d62;
+  --accent:#8b5e34;
+  --line:#ddd2c2;
+  --ok:#41644a;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  font-family:system-ui,-apple-system,Segoe UI,sans-serif;
+  background:var(--bg);
+  color:var(--ink);
+}
+
+header{
+  padding:22px 18px 10px;
+  text-align:center;
+}
+
+h1{
+  margin:0;
+  font-size:28px;
+}
+
+.sub{
+  color:var(--muted);
+  font-size:13px;
+  margin-top:5px;
+}
+
+nav{
+  position:sticky;
+  top:0;
+  z-index:5;
+  display:flex;
+  background:var(--bg);
+  padding:8px;
+  gap:6px;
+  border-bottom:1px solid var(--line);
+}
+
+nav button{
+  flex:1;
+}
+
+.wrap{
+  max-width:720px;
+  margin:auto;
+  padding:12px 12px 90px;
+}
+
+.view{
+  display:none;
+}
+
+.view.active{
+  display:block;
+}
+
+.card{
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:18px;
+  padding:17px;
+  margin:12px 0;
+  box-shadow:0 2px 8px #0000000a;
+}
+
+.title{
+  font-weight:700;
+  font-size:18px;
+}
+
+.mantra{
+  line-height:1.6;
+  margin:10px 0 14px;
+}
+
+.timer{
+  text-align:center;
+  font-size:36px;
+  font-variant-numeric:tabular-nums;
+  font-weight:700;
+}
+
+.count{
+  text-align:center;
+  font-size:48px;
+  font-weight:700;
+}
+
+.small{
+  text-align:center;
+  color:var(--muted);
+  font-size:12px;
+}
+
+.row{
+  display:flex;
+  gap:9px;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+  margin-top:10px;
+}
+
+button{
+  border:1px solid var(--line);
+  background:#fff;
+  border-radius:12px;
+  padding:11px 15px;
+  font-size:15px;
+  color:var(--ink);
+}
+
+button.primary{
+  background:var(--accent);
+  color:white;
+  border-color:var(--accent);
+}
+
+button.big{
+  font-size:30px;
+  min-width:68px;
+  min-height:60px;
+}
+
+button:active{
+  transform:scale(.98);
+}
+
+.done{
+  color:var(--ok);
+  font-weight:700;
+  text-align:center;
+  margin-top:8px;
+}
+
+.history-item{
+  padding:12px 0;
+  border-bottom:1px solid var(--line);
+}
+
+.history-item:last-child{
+  border:0;
+}
+
+.stats{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:10px;
+}
+
+.stat{
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:15px;
+  padding:15px;
+  text-align:center;
+}
+
+.stat b{
+  display:block;
+  font-size:25px;
+}
+
+.soundStatus{
+  text-align:center;
+  color:var(--muted);
+  font-size:13px;
+  margin-top:8px;
+}
+
 </style>
 </head>
+
 <body>
-<header><h1>Mantra 108</h1><div class="sub">Heart → Heart Essence → Body</div></header>
-<nav>
-<button onclick="showView('recite')">Recite</button>
-<button onclick="showView('history')">History</button>
-<button onclick="showView('stats')">Statistics</button>
-<button onclick="showView('settings')">Settings</button>
-</nav>
-<div class="wrap">
-<section id="recite" class="view active"></section>
-<section id="history" class="view"><div class="card"><div class="title">Practice History</div><div id="historyList"></div></div></section>
-<section id="stats" class="view"><div class="stats" id="statsGrid"></div></section>
-<section id="settings" class="view">
- <div class="card"><div class="title">Backup & Restore</div>
- <p>Your data is stored locally on this device. Export a backup before clearing browser data or changing phones.</p>
- <div class="row"><button onclick="exportData()">Export backup</button><label><button onclick="document.getElementById('importFile').click()">Import backup</button><input id="importFile" type="file" accept=".json" hidden></label></div>
- </div>
- <div class="card"><div class="title">Reset</div><p>Clear all counts, timers, and history.</p><button onclick="resetAll()">Reset everything</button></div>
-</section>
+
+<header>
+
+<h1>Mantra 108</h1>
+
+<div class="sub">
+Heart → Heart Essence → Body
 </div>
+
+</header>
+
+
+<nav>
+
+<button onclick="showView('recite')">
+Recite
+</button>
+
+<button onclick="showView('history')">
+History
+</button>
+
+<button onclick="showView('stats')">
+Statistics
+</button>
+
+<button onclick="showView('settings')">
+Settings
+</button>
+
+</nav>
+
+
+<div class="wrap">
+
+
+<section id="recite" class="view active">
+</section>
+
+
+<section id="history" class="view">
+
+<div class="card">
+
+<div class="title">
+Practice History
+</div>
+
+<div id="historyList">
+</div>
+
+</div>
+
+</section>
+
+
+<section id="stats" class="view">
+
+<div class="stats" id="statsGrid">
+</div>
+
+</section>
+
+
+<section id="settings" class="view">
+
+
+<div class="card">
+
+<div class="title">
+Sound
+</div>
+
+<p>
+Wooden-fish sound plays every time you increase the counter.
+A bell sounds when you complete 108.
+</p>
+
+<div class="row">
+
+<button id="soundButton"
+onclick="toggleSound()">
+Sound On
+</button>
+
+</div>
+
+<div class="soundStatus"
+id="soundStatus">
+Sound is ON
+</div>
+
+</div>
+
+
+<div class="card">
+
+<div class="title">
+Backup & Restore
+</div>
+
+<p>
+Your counts, timers and history are stored locally on this device.
+Export a backup before clearing browser data or changing phones.
+</p>
+
+<div class="row">
+
+<button onclick="exportData()">
+Export backup
+</button>
+
+<label>
+
+<button onclick="document.getElementById('importFile').click()">
+Import backup
+</button>
+
+<input
+id="importFile"
+type="file"
+accept=".json"
+hidden>
+
+</label>
+
+</div>
+
+</div>
+
+
+<div class="card">
+
+<div class="title">
+Reset
+</div>
+
+<p>
+Clear all counts, timers and history.
+</p>
+
+<button onclick="resetAll()">
+Reset everything
+</button>
+
+</div>
+
+
+</section>
+
+</div>
+
+
 <script>
+
+/* =========================
+   SOUNDS
+========================= */
+
+const woodenFishSound =
+new Audio('./wooden-fish.wav');
+
+const completionBellSound =
+new Audio('./completion-bell.wav');
+
+woodenFishSound.preload = 'auto';
+
+completionBellSound.preload = 'auto';
+
+
+let soundEnabled =
+localStorage.getItem('mantraSound') !== 'off';
+
+
+function playWoodenFish(){
+
+  if(!soundEnabled) return;
+
+  woodenFishSound.pause();
+
+  woodenFishSound.currentTime = 0;
+
+  woodenFishSound.play().catch(()=>{});
+
+}
+
+
+function playCompletionBell(){
+
+  if(!soundEnabled) return;
+
+  completionBellSound.pause();
+
+  completionBellSound.currentTime = 0;
+
+  completionBellSound.play().catch(()=>{});
+
+}
+
+
+function toggleSound(){
+
+  soundEnabled = !soundEnabled;
+
+  localStorage.setItem(
+    'mantraSound',
+    soundEnabled ? 'on' : 'off'
+  );
+
+  updateSoundButton();
+
+}
+
+
+function updateSoundButton(){
+
+  const button =
+  document.getElementById('soundButton');
+
+  const status =
+  document.getElementById('soundStatus');
+
+  if(!button || !status) return;
+
+
+  if(soundEnabled){
+
+    button.textContent =
+    'Sound On';
+
+    status.textContent =
+    'Sound is ON';
+
+  }else{
+
+    button.textContent =
+    'Sound Off';
+
+    status.textContent =
+    'Sound is OFF';
+
+  }
+
+}
+
+
+
+/* =========================
+   MANTRAS
+========================= */
+
 const MANTRAS=[
- {id:'heart',name:'Heart Mantra',text:'oṁ padme cintāmaṇi mahā vajra bhara hūṃ'},
- {id:'essence',name:'Heart Essence Mantra',text:'oṁ bharate padma hūṁ'},
- {id:'body',name:'Body Mantra',text:'namo ratnatrayāya nama āryāvalokiteśvarāya bodhisattvāya mahāsattvāya mahākāruṇikāya tadyathā oṁ cakravarti cintāmaṇi mahāpadme ru ru tiṣṭhate vajra bhara ākarāya hūṃ svāhā'}
+
+{
+id:'heart',
+
+name:'Heart Mantra',
+
+text:
+'oṁ padme cintāmaṇi mahā vajra bhara hūṃ'
+},
+
+
+{
+id:'essence',
+
+name:'Heart Essence Mantra',
+
+text:
+'oṁ bharate padma hūṁ'
+},
+
+
+{
+id:'body',
+
+name:'Body Mantra',
+
+text:
+'namo ratnatrayāya nama āryāvalokiteśvarāya bodhisattvāya mahāsattvāya mahākāruṇikāya tadyathā oṁ cakravarti cintāmaṇi mahāpadme ru ru tiṣṭhate vajra bhara ākarāya hūṃ svāhā'
+}
+
 ];
-let data=JSON.parse(localStorage.getItem('mantra108')||'null')||{v:1,sessions:{},history:[]};
-MANTRAS.forEach(m=>data.sessions[m.id]??={count:0,elapsed:0,running:false,lastStart:null,startedAt:null});
-let tick;
-function save(){localStorage.setItem('mantra108',JSON.stringify(data))}
-function elapsed(s){return s.elapsed+(s.running&&s.lastStart?Date.now()-s.lastStart:0)}
-function fmt(ms){let x=Math.floor(ms/1000),h=Math.floor(x/3600);x%=3600;let m=Math.floor(x/60),sec=x%60;return [h,m,sec].map(n=>String(n).padStart(2,'0')).join(':')}
-function stop(s){if(s.running){s.elapsed=elapsed(s);s.running=false;s.lastStart=null}}
-function start(id){let s=data.sessions[id]; if(s.running){stop(s)}else{s.running=true;s.lastStart=Date.now();s.startedAt??=new Date().toISOString()} save();render()}
-function plus(id){let s=data.sessions[id]; if(s.count>=108)return; if(!s.running){s.running=true;s.lastStart=Date.now();s.startedAt??=new Date().toISOString()}
- s.count++; if(s.count===108){stop(s); data.history.unshift({id:crypto.randomUUID?.()||String(Date.now()),mantra:id,count:108,time:s.elapsed,startedAt:s.startedAt,completedAt:new Date().toISOString(),complete:true}); s.count=0;s.elapsed=0;s.startedAt=null}
- save();render()}
-function minus(id){let s=data.sessions[id]; if(s.count>0)s.count--; save();render()}
-function endSession(id){let s=data.sessions[id];stop(s);if(s.count>0||s.elapsed>0){data.history.unshift({id:String(Date.now())+id,mantra:id,count:s.count,time:s.elapsed,startedAt:s.startedAt,completedAt:new Date().toISOString(),complete:false});s.count=0;s.elapsed=0;s.startedAt=null}save();render()}
-function resetSession(id){let s=data.sessions[id];stop(s);s.count=0;s.elapsed=0;s.startedAt=null;save();render()}
-function renderRecite(){document.getElementById('recite').innerHTML=MANTRAS.map((m,i)=>{let s=data.sessions[m.id];return `<div class="card"><div class="title">${i+1} · ${m.name}</div><div class="mantra">${m.text}</div><div class="timer">${fmt(elapsed(s))}</div><div class="small">elapsed recitation time</div><div class="row"><button class="primary" onclick="start('${m.id}')">${s.running?'Pause':(s.elapsed?'Resume':'Start')}</button><button onclick="endSession('${m.id}')">End & save</button></div><div class="count">${s.count}</div><div class="small">of 108</div><div class="row"><button class="big" onclick="minus('${m.id}')">−</button><button class="big primary" onclick="plus('${m.id}')">+</button></div><div class="row"><button onclick="resetSession('${m.id}')">Reset this mantra</button></div>${s.count?`<div class="done">Progress saved automatically</div>`:''}</div>`}).join('')}
-function nameFor(id){return MANTRAS.find(x=>x.id===id)?.name||id}
-function renderHistory(){let el=document.getElementById('historyList'); if(!data.history.length){el.innerHTML='<p>No saved sessions yet.</p>';return}
- el.innerHTML=data.history.map(h=>`<div class="history-item"><b>${nameFor(h.mantra)}</b><br>${new Date(h.completedAt).toLocaleString()}<br>${h.count} recitations · ${fmt(h.time)} ${h.complete?'· ✓ 108 completed':'· partial session'}</div>`).join('')}
-function renderStats(){let today=new Date().toDateString(),all=data.history; let live=MANTRAS.map(m=>data.sessions[m.id]).reduce((a,s)=>a+s.count,0);let todayRows=all.filter(h=>new Date(h.completedAt).toDateString()===today);let total=all.reduce((a,h)=>a+h.count,0)+live;let complete=all.filter(h=>h.complete).length;let totalTime=all.reduce((a,h)=>a+h.time,0)+MANTRAS.reduce((a,m)=>a+elapsed(data.sessions[m.id]),0);let todayCount=todayRows.reduce((a,h)=>a+h.count,0);
- document.getElementById('statsGrid').innerHTML=`<div class="stat"><b>${todayCount}</b>Today saved</div><div class="stat"><b>${total}</b>All-time count</div><div class="stat"><b>${complete}</b>108 cycles</div><div class="stat"><b>${fmt(totalTime)}</b>Total time</div>`}
-function render(){renderRecite();renderHistory();renderStats()}
-function showView(id){document.querySelectorAll('.view').forEach(x=>x.classList.remove('active'));document.getElementById(id).classList.add('active');render()}
-function exportData(){let blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='mantra-108-backup.json';a.click();URL.revokeObjectURL(a.href)}
-document.getElementById('importFile').addEventListener('change',e=>{let f=e.target.files[0];if(!f)return;let r=new FileReader();r.onload=()=>{try{let x=JSON.parse(r.result);if(x.sessions&&x.history){data=x;save();render();alert('Backup restored.')}else throw 0}catch{alert('That backup file is not valid.')}};r.readAsText(f)})
-function resetAll(){if(confirm('Delete all mantra data and history?')){localStorage.removeItem('mantra108');location.reload()}}
-document.addEventListener('visibilitychange',()=>{if(document.hidden)save()});
-setInterval(()=>{if(MANTRAS.some(m=>data.sessions[m.id].running)){renderRecite();renderStats()}},1000);
-if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js');
+
+
+
+/* =========================
+   DATA
+========================= */
+
+let data =
+JSON.parse(
+localStorage.getItem('mantra108') || 'null'
+)
+
+||
+
+{
+v:2,
+sessions:{},
+history:[]
+};
+
+
+MANTRAS.forEach(m=>{
+
+data.sessions[m.id] ??= {
+
+count:0,
+
+elapsed:0,
+
+running:false,
+
+lastStart:null,
+
+startedAt:null,
+
+completed:false
+
+};
+
+});
+
+
+function save(){
+
+localStorage.setItem(
+'mantra108',
+JSON.stringify(data)
+);
+
+}
+
+
+
+/* =========================
+   TIMER
+========================= */
+
+function elapsed(s){
+
+return s.elapsed +
+
+(
+s.running && s.lastStart
+
+? Date.now()-s.lastStart
+
+: 0
+);
+
+}
+
+
+function fmt(ms){
+
+let x =
+Math.floor(ms/1000);
+
+let h =
+Math.floor(x/3600);
+
+x %= 3600;
+
+let m =
+Math.floor(x/60);
+
+let sec =
+x%60;
+
+return [h,m,sec]
+
+.map(
+n=>String(n).padStart(2,'0')
+)
+
+.join(':');
+
+}
+
+
+function stop(s){
+
+if(s.running){
+
+s.elapsed =
+elapsed(s);
+
+s.running=false;
+
+s.lastStart=null;
+
+}
+
+}
+
+
+function start(id){
+
+let s =
+data.sessions[id];
+
+
+/* If already completed, start new 108 */
+
+if(s.completed){
+
+s.count=0;
+
+s.elapsed=0;
+
+s.startedAt=null;
+
+s.completed=false;
+
+}
+
+
+if(s.running){
+
+stop(s);
+
+}else{
+
+s.running=true;
+
+s.lastStart=
+Date.now();
+
+s.startedAt ??=
+new Date().toISOString();
+
+}
+
+save();
+
 render();
+
+}
+
+
+
+/* =========================
+   COUNTER
+========================= */
+
+function plus(id){
+
+let s =
+data.sessions[id];
+
+
+/* Don't go past 108 */
+
+if(s.count >= 108)
+return;
+
+
+/* Automatically start timer
+   when first count begins */
+
+if(!s.running){
+
+s.running=true;
+
+s.lastStart=
+Date.now();
+
+s.startedAt ??=
+new Date().toISOString();
+
+}
+
+
+/* Increase counter */
+
+s.count++;
+
+
+/* Wooden fish sound */
+
+playWoodenFish();
+
+
+/* COMPLETED 108 */
+
+if(s.count === 108){
+
+stop(s);
+
+s.completed=true;
+
+
+/* Save completed session */
+
+data.history.unshift({
+
+id:
+crypto.randomUUID?.()
+||
+String(Date.now()),
+
+mantra:id,
+
+count:108,
+
+time:s.elapsed,
+
+startedAt:
+s.startedAt,
+
+completedAt:
+new Date().toISOString(),
+
+complete:true
+
+});
+
+
+/* Bell shortly after wooden fish */
+
+setTimeout(()=>{
+
+playCompletionBell();
+
+},300);
+
+}
+
+
+save();
+
+render();
+
+}
+
+
+
+/* =========================
+   MINUS BUTTON
+========================= */
+
+function minus(id){
+
+let s =
+data.sessions[id];
+
+
+if(s.count > 0){
+
+s.count--;
+
+}
+
+
+/* If correcting 108,
+   remove completed state */
+
+if(s.count < 108){
+
+s.completed=false;
+
+}
+
+
+save();
+
+render();
+
+}
+
+
+
+/* =========================
+   END PARTIAL SESSION
+========================= */
+
+function endSession(id){
+
+let s =
+data.sessions[id];
+
+stop(s);
+
+
+if(
+s.count > 0
+||
+s.elapsed > 0
+){
+
+data.history.unshift({
+
+id:
+String(Date.now())+id,
+
+mantra:id,
+
+count:s.count,
+
+time:s.elapsed,
+
+startedAt:
+s.startedAt,
+
+completedAt:
+new Date().toISOString(),
+
+complete:
+s.count===108
+
+});
+
+}
+
+
+s.count=0;
+
+s.elapsed=0;
+
+s.startedAt=null;
+
+s.completed=false;
+
+save();
+
+render();
+
+}
+
+
+
+/* =========================
+   RESET ONE MANTRA
+========================= */
+
+function resetSession(id){
+
+let s =
+data.sessions[id];
+
+stop(s);
+
+s.count=0;
+
+s.elapsed=0;
+
+s.startedAt=null;
+
+s.completed=false;
+
+save();
+
+render();
+
+}
+
+
+
+/* =========================
+   RECITE SCREEN
+========================= */
+
+function renderRecite(){
+
+document.getElementById('recite')
+.innerHTML =
+
+MANTRAS.map((m,i)=>{
+
+let s =
+data.sessions[m.id];
+
+
+return `
+
+<div class="card">
+
+<div class="title">
+
+${i+1} · ${m.name}
+
+</div>
+
+
+<div class="mantra">
+
+${m.text}
+
+</div>
+
+
+<div class="timer">
+
+${fmt(elapsed(s))}
+
+</div>
+
+<div class="small">
+
+elapsed recitation time
+
+</div>
+
+
+<div class="row">
+
+<button
+class="primary"
+onclick="start('${m.id}')">
+
+${
+s.running
+
+? 'Pause'
+
+: s.completed
+
+? 'Start New 108'
+
+: s.elapsed
+
+? 'Resume'
+
+: 'Start'
+}
+
+</button>
+
+
+<button
+onclick="endSession('${m.id}')">
+
+End & Save
+
+</button>
+
+</div>
+
+
+<div class="count">
+
+${s.count}
+
+</div>
+
+
+<div class="small">
+
+of 108
+
+</div>
+
+
+<div class="row">
+
+<button
+class="big"
+onclick="minus('${m.id}')">
+
+−
+
+</button>
+
+
+<button
+class="big primary"
+onclick="plus('${m.id}')">
+
++
+
+</button>
+
+</div>
+
+
+<div class="row">
+
+<button
+onclick="resetSession('${m.id}')">
+
+Reset this mantra
+
+</button>
+
+</div>
+
+
+${
+s.completed
+
+?
+
+'<div class="done">✓ 108 COMPLETE</div>'
+
+:
+
+s.count
+
+?
+
+'<div class="done">Progress saved automatically</div>'
+
+:
+
+''
+}
+
+</div>
+
+`;
+
+}).join('');
+
+}
+
+
+
+/* =========================
+   HISTORY
+========================= */
+
+function nameFor(id){
+
+return MANTRAS.find(
+x=>x.id===id
+)?.name || id;
+
+}
+
+
+function renderHistory(){
+
+let el =
+document.getElementById(
+'historyList'
+);
+
+
+if(!data.history.length){
+
+el.innerHTML =
+'<p>No saved sessions yet.</p>';
+
+return;
+
+}
+
+
+el.innerHTML =
+
+data.history.map(h=>`
+
+<div class="history-item">
+
+<b>
+${nameFor(h.mantra)}
+</b>
+
+<br>
+
+${new Date(
+h.completedAt
+).toLocaleString()}
+
+<br>
+
+${h.count}
+recitations
+
+·
+
+${fmt(h.time)}
+
+${
+
+h.complete
+
+?
+
+' · ✓ 108 completed'
+
+:
+
+' · partial session'
+
+}
+
+</div>
+
+`).join('');
+
+}
+
+
+
+/* =========================
+   STATISTICS
+========================= */
+
+function renderStats(){
+
+let today =
+new Date().toDateString();
+
+
+let all =
+data.history;
+
+
+let live =
+
+MANTRAS
+
+.map(
+m=>data.sessions[m.id]
+)
+
+.reduce(
+(a,s)=>a+s.count,
+0
+);
+
+
+let todayRows =
+
+all.filter(
+
+h=>
+
+new Date(
+h.completedAt
+).toDateString()
+
+=== today
+
+);
+
+
+let total =
+
+all.reduce(
+(a,h)=>a+h.count,
+0
+)
+
++
+
+live;
+
+
+let complete =
+
+all.filter(
+h=>h.complete
+).length;
+
+
+let totalTime =
+
+all.reduce(
+(a,h)=>a+h.time,
+0
+)
+
++
+
+MANTRAS.reduce(
+
+(a,m)=>
+
+a+
+elapsed(
+data.sessions[m.id]
+),
+
+0
+
+);
+
+
+let todayCount =
+
+todayRows.reduce(
+(a,h)=>a+h.count,
+0
+);
+
+
+document.getElementById(
+'statsGrid'
+).innerHTML = `
+
+<div class="stat">
+
+<b>
+${todayCount}
+</b>
+
+Today saved
+
+</div>
+
+
+<div class="stat">
+
+<b>
+${total}
+</b>
+
+All-time count
+
+</div>
+
+
+<div class="stat">
+
+<b>
+${complete}
+</b>
+
+108 cycles
+
+</div>
+
+
+<div class="stat">
+
+<b>
+${fmt(totalTime)}
+</b>
+
+Total time
+
+</div>
+
+`;
+
+}
+
+
+
+/* =========================
+   MAIN RENDER
+========================= */
+
+function render(){
+
+renderRecite();
+
+renderHistory();
+
+renderStats();
+
+updateSoundButton();
+
+}
+
+
+
+/* =========================
+   NAVIGATION
+========================= */
+
+function showView(id){
+
+document
+.querySelectorAll('.view')
+.forEach(
+x=>x.classList.remove('active')
+);
+
+
+document
+.getElementById(id)
+.classList.add('active');
+
+
+render();
+
+}
+
+
+
+/* =========================
+   EXPORT BACKUP
+========================= */
+
+function exportData(){
+
+let blob =
+new Blob(
+
+[
+JSON.stringify(
+data,
+null,
+2
+)
+],
+
+{
+type:'application/json'
+}
+
+);
+
+
+let a =
+document.createElement('a');
+
+
+a.href =
+URL.createObjectURL(blob);
+
+
+a.download =
+'mantra-108-backup.json';
+
+
+a.click();
+
+
+URL.revokeObjectURL(
+a.href
+);
+
+}
+
+
+
+/* =========================
+   IMPORT BACKUP
+========================= */
+
+document
+.getElementById('importFile')
+.addEventListener(
+
+'change',
+
+e=>{
+
+let f =
+e.target.files[0];
+
+
+if(!f)
+return;
+
+
+let r =
+new FileReader();
+
+
+r.onload=()=>{
+
+try{
+
+let x =
+JSON.parse(
+r.result
+);
+
+
+if(
+x.sessions
+&&
+x.history
+){
+
+data=x;
+
+save();
+
+render();
+
+alert(
+'Backup restored.'
+);
+
+}else{
+
+throw 0;
+
+}
+
+}catch{
+
+alert(
+'That backup file is not valid.'
+);
+
+}
+
+};
+
+
+r.readAsText(f);
+
+}
+
+);
+
+
+
+/* =========================
+   RESET EVERYTHING
+========================= */
+
+function resetAll(){
+
+if(
+
+confirm(
+'Delete all mantra data and history?'
+)
+
+){
+
+localStorage.removeItem(
+'mantra108'
+);
+
+location.reload();
+
+}
+
+}
+
+
+
+/* =========================
+   SAVE WHEN APP HIDDEN
+========================= */
+
+document.addEventListener(
+
+'visibilitychange',
+
+()=>{
+
+if(document.hidden){
+
+save();
+
+}
+
+}
+
+);
+
+
+
+/* =========================
+   LIVE TIMER UPDATE
+========================= */
+
+setInterval(()=>{
+
+if(
+
+MANTRAS.some(
+
+m=>
+data.sessions[m.id].running
+
+)
+
+){
+
+renderRecite();
+
+renderStats();
+
+}
+
+},1000);
+
+
+
+/* =========================
+   SERVICE WORKER
+========================= */
+
+if(
+'serviceWorker'
+in navigator
+){
+
+navigator.serviceWorker
+.register('./sw.js');
+
+}
+
+
+
+/* =========================
+   START APP
+========================= */
+
+render();
+
 </script>
-</body></html>
+
+</body>
+</html>
