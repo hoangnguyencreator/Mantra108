@@ -1,0 +1,9 @@
+{
+  "name": "Mantra 108",
+  "short_name": "Mantra 108",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f6f1e7",
+  "theme_color": "#f6f1e7",
+  "description": "Mantra recitation counters, timers, history and statistics."
+}
